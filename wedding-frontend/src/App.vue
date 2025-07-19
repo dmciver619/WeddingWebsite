@@ -1,9 +1,13 @@
 <script setup>
 import Home from './components/Home.vue';
+import Navigation from './components/Navigation.vue';
 </script>
 
 <template>
-  <Home />
+  <Navigation />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style>
