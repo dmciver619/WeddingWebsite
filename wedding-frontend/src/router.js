@@ -1,7 +1,10 @@
 import { createWebHistory, createRouter } from 'vue-router'
 
-import Home from "./components/Home.vue";
-import Test from './components/Test.vue';
+import Home from "./components/views/home/Home.vue";
+import EngagementParty from './components/views/EngagementParty.vue';
+import GiftIdeas from './components/views/GiftIdeas.vue';
+import OurStory from './components/views/OurStory.vue';
+import Questions from './components/views/Questions.vue';
 
 
 const routes = [
@@ -10,9 +13,29 @@ const routes = [
         component: Home
     },
     {
-        path: '/test',
-        component: Test
-    }
+        path: '/engagement-party',
+        component: EngagementParty
+    },
+    // {
+    //     path: '/wedding',
+    //     component: Wedding
+    // },
+    {
+        path: '/gifts',
+        component: GiftIdeas
+    },
+    {
+        path: '/our-story',
+        component: OurStory
+    },
+    {
+        path: '/engagement-party',
+        component: EngagementParty
+    },
+    {
+        path: '/questions',
+        component: Questions
+    },
 ];
 
 export function setupRouter(app) {
