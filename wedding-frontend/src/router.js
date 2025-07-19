@@ -4,8 +4,6 @@ import Home from "./components/views/home/Home.vue";
 import EngagementParty from './components/views/EngagementParty.vue';
 import GiftIdeas from './components/views/GiftIdeas.vue';
 import OurStory from './components/views/OurStory.vue';
-import Questions from './components/views/Questions.vue';
-
 
 const routes = [
     {
@@ -31,11 +29,7 @@ const routes = [
     {
         path: '/engagement-party',
         component: EngagementParty
-    },
-    {
-        path: '/questions',
-        component: Questions
-    },
+    }
 ];
 
 export function setupRouter(app) {

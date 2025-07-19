@@ -5,7 +5,6 @@
         <!-- <RouterLink to="/wedding">Wedding</RouterLink> -->
         <RouterLink to="/gifts">Gift Ideas</RouterLink>
         <RouterLink to="/our-story">Our Story</RouterLink>
-        <RouterLink to="/questions">Q&A</RouterLink>
     </nav>
 </template>
 
