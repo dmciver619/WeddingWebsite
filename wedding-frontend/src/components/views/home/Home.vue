@@ -1,6 +1,6 @@
 <script setup>
 
-import Background from '../../Background.vue';
+import Background from './Background.vue';
 
 </script>
 
