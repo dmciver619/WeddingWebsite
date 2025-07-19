@@ -27,6 +27,14 @@
     </section>
 
     <section>
+        <h2>Q & A</h2>
+        <p><i>Dress Code?</i></p>
+        <p>Dress Code</p>
+        <p><i>Will there be food?</i></p>
+        <p>No</p>
+    </section>
+
+    <section>
         <h2>RSVP</h2>
         <p>Please RSVP via 07555555555</p>
     </section>
