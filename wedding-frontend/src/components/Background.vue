@@ -11,6 +11,7 @@
     background-size: cover;
     height: 100%;
     left: 0;
+    opacity: 0.45;
     position: absolute;
     top: 0;
     width: 100%;
