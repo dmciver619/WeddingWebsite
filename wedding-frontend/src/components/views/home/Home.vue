@@ -1,15 +1,15 @@
 <script setup>
 
 import Background from './Background.vue';
+import HomeTitle from './HomeTitle.vue';
+import WeddingCountdown from './WeddingCountdown.vue';
 
 </script>
 
 <template>
     <Background />
-    <div class="home-container">
-        <h1>Dylan and Nicole are getting married!</h1>
-        <h2>2027</h2>
-    </div>
+    <HomeTitle />
+    <WeddingCountdown />
 </template>
 
 <style>
