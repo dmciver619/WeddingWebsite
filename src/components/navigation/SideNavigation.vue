@@ -23,7 +23,7 @@ export default {
 .left-nav {
     background: rgba(0, 0, 0, 0.95);
     flex-direction: column;
-    height: calc(100vh - 62px);
+    height: 100%;
     width: 0;
     overflow: hidden;
     position: absolute;
@@ -31,7 +31,7 @@ export default {
     white-space: pre;
 
     &.expanded {
-        width: 50vw;
+        width: 50%;
     }
 }
 

@@ -31,7 +31,7 @@
         font-weight: 600;
         gap: 8px;
         width: fit-content;
-        margin-bottom: 5vh;
+        margin-bottom: 20px;
 
         @media screen and (max-height: 325px) {
             display: none;

@@ -21,6 +21,6 @@ import WeddingCountdown from './WeddingCountdown.vue';
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        height: calc(100vh - 64px);
+        height: 100%;
     }
 </style>
