@@ -22,15 +22,16 @@
 
 <style>
     .wedding-countdown {
+        border: 1px grey solid;
         color: rgb(80, 80, 80);
         display: flex;
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0.75);
         border-radius: 10px;
         font-size: large;
         font-weight: 600;
         gap: 8px;
-        place-self: center;
         width: fit-content;
+        margin-bottom: 5vh;
     }
 
     .countdown-item {
@@ -42,6 +43,11 @@
         font-size: 40px;
         min-width: 100px;
 
+        @media screen and (max-width: 560px) {
+            font-size: 30px;
+            min-width: 50px;
+        }
+
         &:not(:last-of-type) {
             border-right: 1px solid black;
         }
@@ -50,6 +56,17 @@
     .countdown-unit {
         font-size: 22px;
         font-style: italic;
+    }
+    
+    @media screen and (max-width: 560px) {
+        .countdown-item {
+            font-size: 30px;
+            min-width: 50px;
+        }
+        
+        .countdown-unit {
+            font-size: 15px;
+        }
     }
 
 </style>

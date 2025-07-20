@@ -8,10 +8,19 @@ import WeddingCountdown from './WeddingCountdown.vue';
 
 <template>
     <Background />
-    <HomeTitle />
-    <WeddingCountdown />
+    <div class="home-container">
+        <HomeTitle />
+        <WeddingCountdown />
+    </div>
 </template>
 
 <style>
-
+    .home-container {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: calc(100vh - 64px);
+    }
 </style>

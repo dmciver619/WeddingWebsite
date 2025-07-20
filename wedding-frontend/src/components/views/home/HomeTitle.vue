@@ -11,7 +11,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 25vh;
+    padding: 0 10px;
     text-align: center;
 
     h1 {
