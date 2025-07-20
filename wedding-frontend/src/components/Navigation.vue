@@ -11,12 +11,12 @@
 <style>
 
     .top-nav {
-        margin: 0 20px;
+        background: rgba(0,0,0,0.5);
         display: flex;
         gap: 10px;
+        padding: 10px 20px;
 
         a {
-            background: rgba(0,0,0,0.75);
             border-radius: 15%;
             color: whitesmoke;
             padding: 10px 15px;
