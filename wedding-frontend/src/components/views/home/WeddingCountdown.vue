@@ -1,28 +1,57 @@
 <template>
-    <div class="footer">
-        <span>{{ timeUntilWedding.days }} Days</span>
-        <span>{{ timeUntilWedding.hours }} Hours</span>
-        <span>{{ timeUntilWedding.minutes }} Minutes</span>
-        <span>{{ timeUntilWedding.seconds }} Seconds</span>
+    <div class="wedding-countdown">
+        <div class="countdown-item">
+            <span class="countdown-value">{{ timeUntilWedding.days }}</span>
+            <span class="countdown-unit">Days</span>
+        </div>
+        <div class="countdown-item">
+            <span class="countdown-value">{{ timeUntilWedding.hours }}</span>
+            <span class="countdown-unit">Hours</span>
+        </div>
+        <div class="countdown-item">
+            <span class="countdown-value">{{ timeUntilWedding.minutes }}</span>
+            <span class="countdown-unit">Minutes</span>
+        </div>
+        <div class="countdown-item">
+            <span class="countdown-value">{{ timeUntilWedding.seconds }}</span>
+            <span class="countdown-unit">Seconds</span>
+        </div>
     </div>
 
 </template>
 
 <style>
-    .footer {
-        background: rgba(0,0,0,0.5);
-        bottom: 0;
-        box-sizing: border-box;
+    .wedding-countdown {
+        color: rgb(80, 80, 80);
         display: flex;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
         font-size: large;
         font-weight: 600;
         gap: 8px;
-        justify-content: center;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        padding: 10px 20px;
+        place-self: center;
+        width: fit-content;
     }
+
+    .countdown-item {
+        flex: 1 1 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        font-size: 40px;
+        min-width: 100px;
+
+        &:not(:last-of-type) {
+            border-right: 1px solid black;
+        }
+    }
+
+    .countdown-unit {
+        font-size: 22px;
+        font-style: italic;
+    }
+
 </style>
 
 <script>
