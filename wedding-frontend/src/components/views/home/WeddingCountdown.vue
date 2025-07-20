@@ -32,6 +32,10 @@
         gap: 8px;
         width: fit-content;
         margin-bottom: 5vh;
+
+        @media screen and (max-height: 325px) {
+            display: none;
+        }
     }
 
     .countdown-item {
