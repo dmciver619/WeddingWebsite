@@ -18,12 +18,11 @@
 </template>
 
 <script>
-import apiKey from '../../../../../../api-key.json';
 
 export default {
     data() {
         return {
-            apiKey: apiKey.key
+            apiKey: 'AIzaSyD0Z3fdx4QwKhSHy2V4-LdIxSwwZBiELQs'
         }
     }
 }
