@@ -34,7 +34,7 @@ const routes = [
 
 export function setupRouter(app) {
     const router = createRouter({
-        history: createWebHistory (),
+        history: createWebHistory('/WeddingWebsite/'),
         routes
     });
     app.use(router);
