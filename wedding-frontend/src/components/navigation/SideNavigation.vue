@@ -21,7 +21,7 @@ export default {
 <style>
 
 .left-nav {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.95);
     flex-direction: column;
     height: calc(100vh - 62px);
     width: 0;
