@@ -16,6 +16,12 @@
         gap: 10px;
         padding: 10px 20px;
 
+        @media screen and (max-width: 520px) {
+            * {
+                display: none;
+            }
+        }
+
         a {
             border-radius: 15%;
             color: whitesmoke;

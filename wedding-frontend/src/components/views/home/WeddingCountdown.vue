@@ -61,7 +61,8 @@
     @media screen and (max-width: 560px) {
         .countdown-item {
             font-size: 30px;
-            min-width: 50px;
+            min-width: 20px;
+            padding: 10px;
         }
         
         .countdown-unit {
