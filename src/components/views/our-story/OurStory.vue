@@ -1,41 +1,27 @@
+<script setup lang="ts">
+import StoryItem from './StoryItem.vue';
+</script>
+
 <template>
     <h1>Our Story</h1>
 
     <div class="story-timeline-vertical">
-        <div class="story-item-container left">
-            <div class="story-item">
-                <div class="story-item-description">
-                    <h2>May 2015</h2>
-                    <p>Nicole sent Dylan the first message</p>
-                </div>
-                <div class="story-item-image-container">
-                    <img src="/src/assets/4d228af3-332b-4847-9aff-5b0adfef3e33.jpg" />
-                </div>
-            </div>
-            <div class="story-item-branch"></div>
-        </div>
-        <div class="story-item-container right">
-            <div class="story-item">
-                <div class="story-item-description">
-                    <h2>May 2015</h2>
-                    <p>Nicole sent Dylan the first message</p>
-                </div>
-                <div class="story-item-image-container">
-                    <img src="/src/assets/4d228af3-332b-4847-9aff-5b0adfef3e33.jpg" />
-                </div>
-            </div>
-            <div class="story-item-branch"></div>
-        </div>
+        <StoryItem description="Nicole sent Dylan the first message on Facebook" side="left" title="First Message" date="May 2015">
+            <img src="/src/assets/our-story/4d228af3-332b-4847-9aff-5b0adfef3e33.jpg" />
+        </StoryItem>
+        <StoryItem description="Behind Pickie Park on a hill overlooking Pickie and the docks, Dylan asked Nicole out" side="right" title="Boyfriend/Girlfriend" date="July 2015">
+            <img src="/src/assets/our-story/4d228af3-332b-4847-9aff-5b0adfef3e33.jpg" />
+        </StoryItem>
+        <StoryItem side="left" title="First Kiss" date="July 2015">
+            <img src="/src/assets/our-story/4d228af3-332b-4847-9aff-5b0adfef3e33.jpg" />
+        </StoryItem>
+        <StoryItem description="First romantic holiday to Fuerteventura" side="right" title="First Holiday Alone" date="January 2019">
+            <img src="/src/assets/our-story/4d228af3-332b-4847-9aff-5b0adfef3e33.jpg" />
+        </StoryItem>
+        <StoryItem description="Dylan got down on one knee in Singapore Botanic Gardens" side="left" title="Engagement" date="July 2025">
+            <img src="/src/assets/our-story/4d228af3-332b-4847-9aff-5b0adfef3e33.jpg" />
+        </StoryItem>
     </div>
-
-    <!-- <ol>
-        <li>First Message</li>
-        <li>First Date?</li>
-        <li>First Kiss - 21st July 2015?</li>
-        <li>Started Dating - When & Where</li>
-        <li>First Holiday Alone - Fuerteventura</li>
-        <li>Engagement - When & Where</li>
-    </ol> -->
 </template>
 
 <style>
@@ -45,72 +31,10 @@
     flex-direction: column;
     align-items: center;
     padding: 0 10%;
-
-    .left {
-        align-self: start;
-        border-right: 2px solid white;
-
-        .story-item-branch {
-            &::after {
-                content: '';
-                display: block;
-                width: 20px;
-                height: 20px;
-                background-color: whitesmoke;
-                border-radius: 50%;
-                place-self: end;
-                top: -10px;
-                position: relative;
-                right: -11px;
-            }
-        }
-    }
-
-    .right {
-        flex-direction: row-reverse;
-        align-self: end;
-        border-left: 2px solid white;
-        
-        .story-item-branch {
-            
-            &::before {
-                content: '';
-                display: block;
-                width: 20px;
-                height: 20px;
-                background-color: whitesmoke;
-                border-radius: 50%;
-                place-self: start;
-                top: -10px;
-                position: relative;
-                right: 11px;
-            }
-        }
-    }
     
-    .story-item-container {
-        display: flex;
-        align-items: center;
-        width: calc(50% - 1px);
-        justify-content: space-between
-    }
-
-    .story-item-branch {
-        height: 2px;
-        width: 100%;
-        background: white;
-    }
-
-    .story-item, img {
+    img {
+        border-radius: 50%;
         max-width: 500px;
-    }
-
-    .story-item {
-        .story-item-description {
-            h2 {
-                margin: 0;
-            }
-        }
     }
 }
 
