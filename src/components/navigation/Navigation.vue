@@ -42,6 +42,7 @@ export default {
 
     nav {
         display: flex;
+        color: white;
     }
 
 </style>
