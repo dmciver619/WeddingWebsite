@@ -3,7 +3,7 @@ import StoryItem from './StoryItem.vue';
 </script>
 
 <template>
-    <h1>Our Story</h1>
+    <h1 class="page-title">Our Story</h1>
 
     <div class="story-timeline-vertical">
 
@@ -52,6 +52,10 @@ import StoryItem from './StoryItem.vue';
 </template>
 
 <style>
+
+.page-title {
+    place-self: center;
+}
 
 .story-timeline-vertical {
     display: flex;
