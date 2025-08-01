@@ -16,7 +16,7 @@ import StoryItem from './StoryItem.vue';
                 <StoryItem description="Nicole sent Dylan the first message on Facebook" side="left" title="First Message" date="May 2015">
                     <img src="/src/assets/our-story/FirstMessage.jpg" />
                 </StoryItem>
-                <StoryItem description="Between Skipperstone Beach and Pickie Play Park overlooking the pier, Dylan asked Nicole to be his girlfriend" side="right" title="Boyfriend/Girlfriend" date="July 2015">
+                <StoryItem description="Between Skipperstone Beach and Pickie Play Park overlooking the pier, Dylan asked Nicole to be his girlfriend" side="right" title="Boyfriend / Girlfriend" date="July 2015">
                     <img src="/src/assets/our-story/BoyfriendGirlfriend.jpg" />
                 </StoryItem>
                 <StoryItem side="left" title="First Kiss" date="July 2015">
@@ -54,14 +54,14 @@ import StoryItem from './StoryItem.vue';
 <style>
 
 .page-title {
-    place-self: center;
+    text-align: center;
 }
 
 .story-timeline-vertical {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 20px;
 
     @media screen and (max-width: 1320px) {
         .story-timeline-section {
@@ -69,10 +69,17 @@ import StoryItem from './StoryItem.vue';
             gap: 50px;
         }
     }
+
+    @media screen and (max-width: 320px) {
+        .story-timeline-section {
+            gap: 20px;
+        }
+    }
     
     img {
         border-radius: 50%;
-        max-width: 500px;
+        width: 100%;
+        max-width: 50vw;
     }
 }
 
