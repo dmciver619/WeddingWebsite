@@ -1,13 +1,11 @@
 <script setup>
 
-import Background from './Background.vue';
 import HomeTitle from './HomeTitle.vue';
 import WeddingCountdown from './WeddingCountdown.vue';
 
 </script>
 
 <template>
-    <Background />
     <div class="home-container">
         <HomeTitle />
         <WeddingCountdown />
@@ -16,6 +14,10 @@ import WeddingCountdown from './WeddingCountdown.vue';
 
 <style>
     .home-container {
+        background-image: url(/src/assets/4d228af3-332b-4847-9aff-5b0adfef3e33.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
