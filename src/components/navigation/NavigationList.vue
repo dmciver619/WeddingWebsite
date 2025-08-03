@@ -10,7 +10,7 @@
 <style scoped>
     a {
         border-radius: 15%;
-        color: whitesmoke;
+        color: var(--highlight);
         padding: 10px 15px;
 
         &:hover {
