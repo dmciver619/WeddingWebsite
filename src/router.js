@@ -29,7 +29,7 @@ const routes = [
 
 export function setupRouter(app) {
     const router = createRouter({
-        history: createWebHistory('/WeddingWebsite/'),
+        history: createWebHistory(import.meta.env.BASE_URL),
         routes
     });
     app.use(router);
