@@ -21,7 +21,7 @@ export default {
 <style>
 
 .left-nav {
-    background: rgba(0, 0, 0, 0.95);
+    background: var(--main);
     flex-direction: column;
     height: 100%;
     width: 0;
@@ -29,6 +29,7 @@ export default {
     position: absolute;
     transition: 0.25s width;
     white-space: pre;
+    z-index: 1;
 
     &.expanded {
         width: 50%;

@@ -2,7 +2,7 @@
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/engagement-party">Engagement Party</RouterLink>
     <!-- <RouterLink to="/wedding">Wedding</RouterLink> -->
-    <RouterLink to="/gifts">Gift Ideas</RouterLink>
+    <!-- <RouterLink to="/gifts">Gift Ideas</RouterLink> -->
     <RouterLink to="/our-story">Our Story</RouterLink>
 </template>
 
@@ -10,7 +10,7 @@
 <style scoped>
     a {
         border-radius: 15%;
-        color: whitesmoke;
+        color: var(--highlight);
         padding: 10px 15px;
 
         &:hover {

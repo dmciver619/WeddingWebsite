@@ -1,6 +1,5 @@
 <template>
     <section>
-        <h2>Time</h2>
-        <p>TBC</p>
+        <h2>Please RSVP As Soon As Possible</h2>
     </section>
 </template>

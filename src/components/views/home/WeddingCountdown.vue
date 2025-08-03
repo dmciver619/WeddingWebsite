@@ -29,9 +29,51 @@
         border-radius: 10px;
         font-size: large;
         font-weight: 600;
-        gap: 8px;
-        width: fit-content;
+        width: 50%;
         margin-bottom: 20px;
+        justify-content: space-around;
+        top: 10px;
+        position: relative;
+
+        @media screen and (max-width: 881px) {
+            width: 90%;
+
+            .countdown-item {
+                font-size: 30px;
+                min-width: 75px;
+            }
+
+            .countdown-unit {
+                font-size: 18px;
+            }
+        }
+        
+
+        @media screen and (max-width: 380px) {
+            width: 90%;
+
+            .countdown-item {
+                font-size: 25px;
+                min-width: 50px;
+            }
+
+            .countdown-unit {
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width: 270px) {
+            width: 90%;
+
+            .countdown-item {
+                font-size: 20px;
+                min-width: 20px;
+            }
+
+            .countdown-unit {
+                font-size: 10px;
+            }
+        }
 
         @media screen and (max-height: 325px) {
             display: none;
@@ -43,14 +85,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 15px;
+        padding: 5px;
         font-size: 40px;
         min-width: 100px;
-
-        @media screen and (max-width: 560px) {
-            font-size: 30px;
-            min-width: 50px;
-        }
 
         &:not(:last-of-type) {
             border-right: 1px solid black;
@@ -60,18 +97,6 @@
     .countdown-unit {
         font-size: 22px;
         font-style: italic;
-    }
-    
-    @media screen and (max-width: 560px) {
-        .countdown-item {
-            font-size: 30px;
-            min-width: 20px;
-            padding: 10px;
-        }
-        
-        .countdown-unit {
-            font-size: 15px;
-        }
     }
 
 </style>

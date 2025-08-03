@@ -107,7 +107,7 @@ import StoryItem from './StoryItem.vue';
 
 .story-timeline-line-left {
     width: 2px;
-    background: white;
+    background: var(--main-text);
     height: 100%;
 }
 
