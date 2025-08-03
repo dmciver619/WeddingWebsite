@@ -2,7 +2,7 @@
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/engagement-party">Engagement Party</RouterLink>
     <!-- <RouterLink to="/wedding">Wedding</RouterLink> -->
-    <RouterLink to="/gifts">Gift Ideas</RouterLink>
+    <!-- <RouterLink to="/gifts">Gift Ideas</RouterLink> -->
     <RouterLink to="/our-story">Our Story</RouterLink>
 </template>
 
