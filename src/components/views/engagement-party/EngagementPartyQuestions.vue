@@ -1,9 +1,21 @@
 <template>
     <section>
         <h2>Q & A</h2>
-        <p><i>Dress Code?</i></p>
-        <p>Smart Casual or Whatever You Feel Comfortable In</p>
-        <p><i>Will There Be Food?</i></p>
-        <p>There will be nibbly food</p>
+        <div class="engagement-party-details-entry">
+            <dl>
+                <dt>Dress Code?</dt>
+                <dd>Whatever You Feel Comfortable In</dd>
+                <dt>Will There Be Food?</dt>
+                <dd>There will be nibbly food</dd>
+            </dl>
+        </div>
     </section>
 </template>
+
+<style scoped>
+
+    dt {
+        font-weight: 700;
+    }
+
+</style>

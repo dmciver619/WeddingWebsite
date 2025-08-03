@@ -6,8 +6,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--main-text);
+  background-color: var(--main-light);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,6 +15,10 @@
   -moz-osx-font-smoothing: grayscale;
 
   --main: #d5cdb8;
+  --main-light: #e8e3d6;
+
+  --main-text: #201f1d9a;
+
   --highlight: #6e7b48;
   --highlight-light: #7c885a;
 }
@@ -29,6 +33,10 @@ main {
 
 body {
   margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
