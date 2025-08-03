@@ -2,8 +2,8 @@
     <section>
         <h2>Location</h2>
         <div class="location-info">
-            <p>Bangor Football Club</p>
-            <address>Clandeboye Rd, BT20 3JT</address>
+            <p>Bangor Civil Defence Club</p>
+            <address>27-33 Victoria Road, Bangor BT20 5EX</address>
         </div>
         <div class="location-map-container">
             <iframe
@@ -11,7 +11,7 @@
                 style="border:0"
                 loading="lazy"
                 allowfullscreen
-                :src="'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJGc5wt4d1YUgRP_BxgmdyC9A&key=' + apiKey">
+                :src="'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJVevuNheeYUgRL5nilhcPuAY&key=' + apiKey">
             </iframe>
         </div>
     </section>

@@ -2,8 +2,8 @@
     <section>
         <h2>Q & A</h2>
         <p><i>Dress Code?</i></p>
-        <p>Dress Code</p>
-        <p><i>Will there be food?</i></p>
-        <p>No</p>
+        <p>Smart Casual or Whatever You Feel Comfortable In</p>
+        <p><i>Will There Be Food?</i></p>
+        <p>There will be nibbly food</p>
     </section>
 </template>
