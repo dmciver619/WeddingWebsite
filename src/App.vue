@@ -1,4 +1,5 @@
 <script setup>
+
 import Navigation from './components/navigation/Navigation.vue';
 
 </script>

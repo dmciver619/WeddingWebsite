@@ -1,3 +1,5 @@
+@import './assets/fonts/index.css';
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +13,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --main: #d5cdb8;
+  --highlight: #6e7b48;
+  --highlight-light: #7c885a;
 }
 
 html, body, #app {
@@ -18,7 +24,7 @@ html, body, #app {
 }
 
 main {
-  height: calc(100% - 60px);
+  height: calc(100% - 150px);
 }
 
 body {

@@ -6,8 +6,11 @@ import NavigationList from './NavigationList.vue';
 
 <template>
     <nav class="top-nav">
+        <h1>Dylan & Nicole</h1>
         <button class="mobile-nav-toggle" v-on:click="toggleMobileNav">Menu</button>
-        <NavigationList />
+        <div>
+            <NavigationList />
+        </div>
     </nav>
 </template>
 
@@ -24,15 +27,37 @@ export default {
 <style>
 
 .top-nav {
-    background: rgba(0,0,0,0.5);
+    background: var(--main);
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     padding: 10px 20px;
-    height: 60px;
+    height: 150px;
     box-sizing: border-box;
     align-items: center;
+    color: var(--highlight);
+
+    h1, a {
+        font-weight: 400;
+    }
+
+    h1 {
+        font-family: 'SelfDeceptionRegular';
+        margin: 10px;
+        white-space: pre;
+
+        @media screen and (max-width: 430px) {
+            font-size: 12vw;
+        }
+    }
+
+    a {
+        color: var(--highlight-light);
+    }
 }
 
 .mobile-nav-toggle {
+    color: var(--highlight);
     display: none;
 }
 

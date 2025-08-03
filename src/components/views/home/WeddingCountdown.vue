@@ -32,7 +32,8 @@
         width: 50%;
         margin-bottom: 20px;
         justify-content: space-around;
-        
+        top: 10px;
+        position: relative;
 
         @media screen and (max-width: 881px) {
             width: 90%;

@@ -1,6 +1,6 @@
 <template>
     <div class="home-title">
-        <h1>Dylan and Nicole are getting married!</h1>
+        <!-- <h1>We are getting married!</h1> -->
         <h2>2027</h2>
     </div>
 </template>
@@ -14,8 +14,21 @@
     padding: 0 10px;
     text-align: center;
 
+    h1, h2 {
+        margin: 0;
+        color: var(--highlight-light);
+    }
+
     h1 {
-        text-shadow: 2px 3px black;
+        font-weight: 500;
+
+        @media screen and (max-width: 750px) {
+            font-size: 40px;
+        }
+        
+        @media screen and (max-width: 475px) {
+            font-size: 25px;
+        }
     }
 }
 
